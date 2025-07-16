@@ -1,0 +1,52 @@
+/* homepage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.homepage-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.homepage-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #ffffff, #dcdcdc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.generator-button {
+  background: #ffffff;
+  color: #333;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.generator-button:hover {
+  background: #f0f0ff;
+  transform: translateY(-3px);
+}
+
+.generator-button:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
