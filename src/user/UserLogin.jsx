@@ -31,19 +31,7 @@ export default function UserLogin() {
         </div>
 
         <form onSubmit={handleSubmit} className="generator-form">
-          <div className="form-group">
-            <label htmlFor="nameOrReg">Name or Reg No</label>
-            <input
-              type="text"
-              id="nameOrReg"
-              name="nameOrReg"
-              placeholder="Enter name or registration number"
-              value={formData.nameOrReg}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
+          
           <div className="form-group">
             <label htmlFor="email">Email ID</label>
             <input
@@ -52,6 +40,19 @@ export default function UserLogin() {
               name="email"
               placeholder="Enter your email"
               value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="nameOrReg">Name or Reg No</label>
+            <input
+              type="text"
+              id="nameOrReg"
+              name="nameOrReg"
+              placeholder="Enter name or registration number"
+              value={formData.nameOrReg}
               onChange={handleChange}
               required
             />
