@@ -1,0 +1,34 @@
+.mainpage_img {
+  height: 50vh;
+  width: 30rem;
+  margin: 5rem 0;
+  /* animation: imageanimaion 1s ease-in-out infinite alternate-reverse both; */
+}
+.mainpage_header h1 {
+  font-weight: bold;
+  color: var(--primary);
+}
+.mainpage_header p {
+  font-size: 1.2rem;
+}
+
+@keyframes imageanimaion {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@media (max-width: 768px) {
+  .mainpage_img {
+    width: 20rem;
+    margin: 1rem 0;
+  }
+  .mainpage_header h2 {
+    font-size: 1.5rem;
+  }
+  .mainpage_header p {
+    font-size: 1rem;
+  }
+}

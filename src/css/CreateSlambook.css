@@ -1,0 +1,75 @@
+/* .flower_img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 14rem;
+  width: 17rem;
+  z-index: -2;
+} */
+.flower_img {
+  width: 100%;
+  height: 15rem;
+}
+/* .create-form {
+  min-height: 75vh;
+} */
+.form-div {
+  background-color: var(--bg-primary);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form-label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.questions {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.slam-url {
+  background-color: rgb(209, 204, 204);
+  overflow-x: auto;
+}
+
+.create-row {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+#slam_options {
+  max-height: 300px;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+.scrollable-menu {
+  height: auto;
+  max-height: 200px;
+  max-width: 500px;
+  overflow-x: scroll;
+  border: 1px solid grey;
+}
+.btn-default.dropdown-toggle {
+  border: 1px solid #ced4da;
+  color: #495057;
+}
+@media (max-width: 768px) {
+  .flower_img {
+    width: 80%;
+    height: 13rem;
+  }
+  .form-div {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+  }
+  .scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    max-width: 18rem;
+    overflow-x: scroll;
+    border: 1px solid grey;
+  }
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+:root {
+  /* --primary: #c94343; */
+  --primary: #e63363;
+  --dark-primary: #d42453;
+  --bg-primary: #f8d7da;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--primary) !important;
+}
+.tab-pane.fade.show.active {
+  border-bottom: none;
+}
+
+.shadow-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.primary-text {
+  color: var(--primary);
+}
+.footer {
+  bottom: 0;
+}
+.footer p {
+  color: white;
+}
+
+@media (max-width: 320px) {
+  .nav-tabs .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .photo {
+    width: 14rem;
+  }
+}

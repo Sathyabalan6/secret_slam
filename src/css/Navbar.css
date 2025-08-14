@@ -1,0 +1,18 @@
+.nav-link.active {
+  border-bottom: 2px solid var(--primary);
+
+  font-weight: bold;
+}
+.navbar-brand {
+  color: var(--primary) !important;
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: var(--primary) !important;
+}
+
+.nav-link {
+  color: black !important;
+}
